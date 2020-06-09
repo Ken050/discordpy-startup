@@ -20,7 +20,14 @@ async def ping(ctx):
 
 @bot.command()
 async def test(ctx):
-    await ctx.send('テスト')   
+    await ctx.send('テスト') 
+    
+   
+@bot.command()
+
+async def mm come(ctx):
+
+    await ctx.send('@りょうだい')
 
 
 bot.run(token)
