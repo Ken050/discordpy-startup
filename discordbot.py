@@ -24,9 +24,7 @@ async def test(ctx):
     
    
 @bot.command()
-
 async def mm come(ctx):
-
     await ctx.send('@りょうだい')
 
 
